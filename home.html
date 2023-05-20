@@ -4,22 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alterar Cor de Fundo</title>
+    <title>Página Inicial</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="container">
-        <h1>Alterar Cor de Fundo</h1>
-        <div class="input-group">
-            <input type="text" id="nomeCorInput" placeholder="Digite o nome da cor">
-            <input type="text" id="codigoCorInput" placeholder="Digite o código da cor">
-        </div>
-        <button onclick="alterarCor()">Alterar</button>
-        <div class="color-buttons">
-            <button class="color-button" onclick="alterarCor('blue')">Azul</button>
-            <button class="color-button" onclick="alterarCor('red')">vermelho</button>
-            <button class="color-button" onclick="alterarCor('gray')">Cinza</button>
+        <h1>Bem-vindo!</h1>
+        <p>Escolha uma opção:</p>
+        <div class="options">
+            <button onclick="abrirMudarCor()">Mudar Cor de Fundo</button>
+            <button onclick="abrirCalculadoraIMC()">Calculadora de IMC</button>
         </div>
     </div>
 

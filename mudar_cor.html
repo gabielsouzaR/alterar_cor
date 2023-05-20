@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alterar Cor de Fundo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Alterar Cor de Fundo</h1>
+        <div class="input-group">
+            <input type="text" id="nomeCorInput" placeholder="Digite o nome da cor (Inglês)">
+            <input type="text" id="codigoCorInput" placeholder="Digite o código da cor">
+        </div>
+        <button onclick="alterarCor()">Alterar</button>
+        <div class="color-buttons">
+            <button class="color-button" onclick="alterarCor('blue')">Azul</button>
+            <button class="color-button" onclick="alterarCor('red')">Vermelho</button>
+            <button class="color-button" onclick="alterarCor('gray')">Cinza</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
