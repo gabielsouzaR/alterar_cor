@@ -70,3 +70,4 @@ function login() {
         alert('Usuário ou senha inválidos. Por favor, tente novamente.');
     }
 }
+
