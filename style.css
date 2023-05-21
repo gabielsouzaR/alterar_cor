@@ -12,14 +12,14 @@ body {
     background: linear-gradient(to bottom, #e6c4f5, #430e57);
     background-color: #ffffff;
     border-radius: 20px;
-    padding: 20px;
-    max-width: 400px;
+    padding: 30px;
+    max-width: 700px;
     text-align: center;
 }
 
 h1 {
-    color: #6c3483;
-    margin-bottom: 20px;
+    color: #6a0094;
+    margin-bottom: 0px;
 }
 
 .input-group {
@@ -29,7 +29,7 @@ h1 {
 label {
     display: block;
     margin-bottom: 20px;
-    color: #6c3483;
+    color: #000000;
     font-weight: bold;
 }
 
@@ -43,7 +43,7 @@ input[type="password"] {
 
 button {
     background-color: #6c3483;
-    color: #fff;
+    color: #ffffff;
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
@@ -51,5 +51,6 @@ button {
 }
 
 button:hover {
-    background-color: #8e44ad;
+    background-color: #541c6d;
+    border-radius: 60px;
 }

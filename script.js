@@ -64,7 +64,7 @@ function login() {
     const username = usernameInput.value;
     const password = passwordInput.value;
 
-    if (username === 'admin' && password === 'admin') {
+    if (username == 'admin' && password == '1234') {
         window.location.href = 'home.html';
     } else {
         alert('Usuário ou senha inválidos. Por favor, tente novamente.');
