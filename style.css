@@ -6,6 +6,9 @@ body {
     align-items: center;
     min-height: 100vh;
     font-family: Arial, sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
 }
 
 .container {
@@ -13,13 +16,15 @@ body {
     background-color: #ffffff;
     border-radius: 20px;
     padding: 30px;
-    max-width: 700px;
+    max-width: 800px;
     text-align: center;
+    max-width: 300px;
 }
 
 h1 {
     color: #6a0094;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .input-group {
@@ -31,13 +36,15 @@ label {
     margin-bottom: 20px;
     color: #000000;
     font-weight: bold;
+    margin-top: 15px;
 }
 
 input[type="text"],
 input[type="password"] {
-    padding: 5px;
-    border: 1px solid #ccc;
+    padding: 5px 5px;
+    border: 2px solid #a00093;
     border-radius: 5px;
+    margin-top: 15px;
     width: 100%;
 }
 
@@ -48,9 +55,25 @@ button {
     border-radius: 5px;
     padding: 10px 20px;
     cursor: pointer;
+    margin-bottom: 10px;
+
 }
 
 button:hover {
-    background-color: #541c6d;
+    background-color: #15ff00;
     border-radius: 60px;
+    color: #000000;
+}
+
+input[type="number" i] {
+    padding: 8px 10px;
+    border-radius: 10px;
+    margin-right: center;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+    color: aqua;
 }

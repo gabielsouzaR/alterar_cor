@@ -8,19 +8,26 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-  <body>
-  <div class="container">
-    <h1>Login</h1>
-    <div class="input-group">
-      <label for="username">Usuário:</label>
-      <input type="text" id="username" placeholder="Digite seu usuário">
-    </div>
-    <div class="input-group">
-      <label for="password">Senha:</label>
-      <input type="password" id="password" placeholder="Digite sua senha">
-    </div>
-    <button onclick="login()">Entrar</button>
-  </div>
+<body>
+  <header>
+    <div class="container">
+      <h2>Login</h2>
+      <div class="input-group">
+        <label for="username">Usuário:</label>
+        <input type="text" id="username" placeholder="Digite seu usuário">
+      </div>
+      <div class="input-group">
+        <label for="password">Senha:</label>
+        <input type="password" id="password" placeholder="Digite sua senha">
+      </div>
+      <button onclick="login()">Entrar</button>
+      <div id="error-text" class="error-text"></div>
+      <div class="forgot-password">
+        <h3>Esqueceu sua senha?</h3>
+        <a href="#" onclick="location.reload()">Clique aqui</a>
+      </div>
+      
+  </header>
 
   <script src="script.js"></script>
 </body>

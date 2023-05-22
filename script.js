@@ -58,16 +58,23 @@ function getClassificacaoIMC(imc) {
 }
 
 function login() {
-    const usernameInput = document.getElementById('username');
-    const passwordInput = document.getElementById('password');
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
 
-    const username = usernameInput.value;
-    const password = passwordInput.value;
-
-    if (username == 'admin' && password == '1234') {
-        window.location.href = 'home.html';
+    // Verificar se o usuário e a senha estão corretos
+    if (username === "admin" && password === "admin") {
+        // Login bem-sucedido, redirecionar para a próxima página
+        window.location.href = "home.html";
     } else {
-        alert('Usuário ou senha inválidos. Por favor, tente novamente.');
+        // Exibir mensagem de erro
+        var errorText = document.getElementById("error-text");
+        errorText.textContent = "Usuário ou senha incorretos. Por favor, verifique suas credenciais.";
     }
-}
+    if (document.title === "Login") {
+        // Código para a página de login
+        function login() {
+            // ...
+        }
+    }
 
+}
